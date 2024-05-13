@@ -1,0 +1,10 @@
+# Rule W011 - Remove old style loop style
+---
+- name: Example playbook
+  hosts: all
+
+  tasks:
+    - name: A task with old loop style
+      ansible.builtin.debug:
+        msg: "{{ item }}"
+      with_items: "{{ items }}"
