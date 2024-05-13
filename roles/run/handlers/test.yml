@@ -1,0 +1,10 @@
+# Rule W001 - Useful FQCN
+---
+- name: Create a ec2 cloud instance
+  register: x
+  ec2_instance:
+    state: running
+    name: my_ec2
+    region: us-east-1
+    aws_access_key: "123"
+    aws_secret_key: abc
