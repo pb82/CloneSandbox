@@ -1,2 +1,1 @@
-exclude_paths:
-- roles/run/tasks/includes
+exclude_paths: []
