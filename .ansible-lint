@@ -1,2 +1,2 @@
-skip_list:
-- includes/configure.yaml
+exclude_paths:
+- roles/run/tasks/includes
